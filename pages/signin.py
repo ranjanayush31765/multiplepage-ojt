@@ -14,6 +14,7 @@ if st.button("SIGNIN"):
        v=0
        for data in res:
               v=v+1
+              st.session_state["username"]=data["username"]
               st.switch_page("pages/profile.py")
               
        if v==0:
