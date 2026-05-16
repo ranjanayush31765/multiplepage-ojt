@@ -2,7 +2,7 @@ import streamlit as st
 import time
 import pymongo
 st.header("Change Password")
-conn=pymongo.MongoClient("mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2")
+conn=pymongo.MongoClient("mongodb+srv://ranjanayush31765_db_user:EW9kHFHIlxV79Akj@cluster0.bnmawun.mongodb.net/?appName=Cluster0")
 mydb=conn["cv"]
 my=mydb["user_info"]
 t1=st.text_input("Old Password")
