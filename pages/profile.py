@@ -1,7 +1,7 @@
 import streamlit as st
 import time
 import pymongo
-conn=pymongo.MongoClient("mongodb+srv://sakshirani1228_db_user:7bhnzfdX2Yuq6ZUK@cluster0.qkhw1qi.mongodb.net/?appName=Cluster0")
+conn=pymongo.MongoClient("mongodb+srv://ranjanayush31765_db_user:EW9kHFHIlxV79Akj@cluster0.bnmawun.mongodb.net/?appName=Cluster0")
 mydb=conn["cv"]
 my=mydb["user_info"]
 with st.spinner("Loading..."):
